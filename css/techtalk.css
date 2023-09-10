@@ -1,0 +1,62 @@
+.tech-talk {
+    margin: 20px 20px;
+    padding: 20px;
+    font-family: 'oxygen', sans-serif;
+    color: white;
+    display: grid;
+    gap: 40px;
+    justify-content: center;
+}
+
+@media(min-width: 770px) {
+    .tech-talk {
+        grid-template-columns: repeat(2, 0.0fr);
+    }
+}
+
+.topic {
+    position: relative;
+    width: 350px;
+    height: 250px;
+}
+
+.topic a {
+    text-decoration: none;
+    color: white;
+}
+
+.topic img {
+    object-fit: cover;
+    width: 350px;
+    height: 250px;
+    padding: 0px 10px 0px 5px;
+}
+
+.right {
+    z-index: 2;
+    position: absolute;
+    top: 200px;
+    right: 10px;
+    font-weight: bold;
+    width: 335px;
+    line-height: 50px;
+    padding: 0px 20px 0px 0px;
+    background-color: rgb(24, 24, 24);
+    text-align: right;
+    opacity: 0.9;
+}
+
+.left {
+    z-index: 2;
+    position: absolute;
+    top: 200px;
+    right: 10px;
+    font-weight: bold;
+    width: 335px;
+    line-height: 50px;
+    padding: 0px 0px 0px 20px;
+    background-color: rgb(24, 24, 24);
+    text-align: left;
+    opacity: 0.9;
+
+}
