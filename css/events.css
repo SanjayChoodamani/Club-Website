@@ -1,0 +1,75 @@
+
+.db{
+    margin: 100px 50px 0px;
+}
+
+.db h1{
+    color: aqua;
+    margin: 10px 0px;
+    font-size: 2.5rem;
+}
+
+.db hr{
+    margin: 0px;
+}
+
+.list{
+    margin-top: 20px;
+}
+.container{
+    margin: 10px 0px 20px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    text-align: left;
+    padding: 10px;
+}
+
+.container img{
+    object-fit: cover;
+    width: 350px;
+    height: 250px;
+    margin: 10px 20px 10px 10px;
+}
+
+.content{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h2{
+    font-size: 2rem;
+}
+
+.content p{
+    font-size: 20px;
+    margin: 20px 10px 0px 0px;
+}
+
+@media(max-width: 770px) {
+    .db{
+        margin: 100px 25px 0px;
+    }
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .container img{
+        margin: 10px;
+        width: 300px;
+        height: 220px;
+        position: relative;
+        left: 45%;
+        transform: translateX(-45%);
+    }
+}
+
+@media(max-width: 450px){
+    .container img{
+        left: 30%;
+        transform: translateX(-30%);
+    }
+}

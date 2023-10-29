@@ -87,3 +87,12 @@
     transform: translate(-50%, -5%);
     z-index: 1;
 }
+
+.event-desc button{
+    color: white;
+    background-color: rgba(0,0,0,0);
+    margin: 20px 0px 0px 0px;
+    font-size: 20px;
+    padding: 10px 10px;
+    border: white solid 1px;
+}
