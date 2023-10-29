@@ -56,10 +56,11 @@ h2{
         flex-direction: column;
         justify-content: center;
         text-align: center;
+        padding: 5px;
     }
     .container img{
         margin: 10px;
-        width: 300px;
+        width: 90%;
         height: 220px;
         position: relative;
         left: 45%;
