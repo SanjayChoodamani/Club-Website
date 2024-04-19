@@ -193,6 +193,15 @@ body::-webkit-scrollbar {
   }
 }
 
+.techs{
+  z-index: 200;
+  color: white;
+  position: relative;
+  top: -50px;
+  width: fit-content ;
+  border: 1px solid white;
+  padding: 10px;
+}
 .menu-screen {
   display: none;
   position: fixed;
